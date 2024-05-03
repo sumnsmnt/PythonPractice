@@ -13,5 +13,5 @@ print(str.replace("n","N"))
 # returns 1st character/word index
 print(str.find("S"))
 
-# counts the number of occurance
+# counts the number of occurrence
 print(str.count("n"))
