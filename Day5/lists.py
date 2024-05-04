@@ -26,3 +26,35 @@ print(marks[-6:])
 '''
 
 # List Methods
+list = [3, 2, 1, 4]
+
+# add one element at the end
+list.append(5)
+# print(list.append(5)) # it returns none
+print(list)
+
+# sort in ascending order
+list.sort()
+# print(list.sort()) # it returns none
+print(list)
+
+# sort in descending order
+list.sort(reverse=True)
+# print(list.sort(reverse=True))
+print(list)
+
+# reverse list
+list.reverse()
+print(list)
+
+# insert element at index
+list.insert(5, 6)
+print(list)
+
+# removes first occurence of element
+list.remove(1)
+print(list)
+
+# removes element at index
+list.pop(3)
+print(list)
