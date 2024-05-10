@@ -24,9 +24,13 @@ print(line3)
 
 # f.write("I will complete the Python very soon.")
 
-f = open("demo.txt", "a")
+# f = open("demo.txt", "a")
 
-f.write("\nI'll get into DevOps after that.")
+# f.write("\nI'll get into DevOps after that.")
 
-f.close()
+# f.close()
 
+
+# "r+" - read + overwrite (no truncate) pointer in the starting
+# "w+" - read + overwrite (truncate)
+# "a+" - read + append (no truncate) pointer at the end
